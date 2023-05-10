@@ -1,0 +1,10 @@
+{
+  "user_01": {
+    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+  },
+  "user_02": {
+    "email": "eve.holt@reqres.in",
+    "password": ""
+  }
+}

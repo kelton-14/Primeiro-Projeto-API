@@ -1,0 +1,12 @@
+dev:
+  envDataSource: "dev"
+  urlEndpoint: "https://reqres.in"
+ 
+hml:
+  envDataSource: "hml"
+  urlEndpoint: "https://reqres.in"
+  
+prd:
+  envDataSource: "prd"
+  urlEndpoint: "url de prd"
+

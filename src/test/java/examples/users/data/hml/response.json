@@ -1,0 +1,26 @@
+{
+  "cenario_01": {
+    "ct_01": {
+      "data": {
+        "id": null,
+        "email": "#? _.contains('@') && _.contains('.in')",
+        "first_name": "#string? _.length >1",
+        "last_name": "#string? _.length >1",
+        "avatar": "##string"
+      },  
+      "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+      }
+    }
+  },
+  "cenario_02": {
+    "ct_01": {
+      "id": "#number",
+      "token": "#string? _.length >1"
+    },
+    "ct_02": {
+      "error": "Missing password"
+    }
+  }
+}

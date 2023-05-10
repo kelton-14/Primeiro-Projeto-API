@@ -1,0 +1,23 @@
+image: maven:3.6.3-jdk-8-slim
+
+variables:
+  TAGS: "--tags=@users"
+  ENV: "hml"
+  THREADS: 1
+
+stages:
+  - test
+
+test:
+  stage: test
+  script: 
+    - echo $TAGS
+    - mvn clean test "-Dkarate.env=$ENV" "-Dkarate.options=$TAGS --tags=~@ignore"
+  
+  artifacts:
+    when: always
+    paths:
+      - target/*
+    reports:
+      junit:
+        - target/surefire-reports/*.xml

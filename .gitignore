@@ -1,0 +1,30 @@
+# Maven Reports
+/target/**
+
+# Intellij
+.idea/
+*.iml
+*.iws
+.settings
+/config/local.properties
+/runners/RunTest.java
+
+# VSCode
+.vscode/
+.classpath
+.project
+
+# Mac
+.DS_Store
+
+#Cucumber
+
+#Report
+/output/**
+
+#Log4j
+log4j.log
+/target/
+
+#Cucumber
+*.tmp
